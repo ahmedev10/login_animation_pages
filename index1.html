@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Modern Login Page </title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        
+        <div class="form-container sign-in">
+            <form>
+                <h1>تسجيل الدخول</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>اواستخدم  البريدالالكترونى</span>
+                <input type="email" placeholder="البريدالالكترونى" style="direction: rtl";>
+                <input type="password" placeholder="كلمةالمرور" style="direction: rtl;">
+                <a href="#">نسيت كلمةالمرور</a>
+                <button>دخول</button>
+            </form>
+        </div>
+        <div class="form-container sign-up">
+            <form>
+                <h1>انشأ حساب</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>او استخدم البريد الالكتروني</span>
+                <input type="text" placeholder="الاسم" style="direction: rtl;">
+                <input type="email" placeholder="البريد الالكتروني" style="direction: rtl;">
+                <input type="password" placeholder="كلمة المرور" style="direction: rtl;">
+                <button>سجل</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>اهلا مجددا</h1>
+                    <p>ادخل بياناتك الشخصية</p>
+                    <button class="hidden" id="login"> دخول</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>مرحبا بك معنا</h1>
+                    <p>انشأ حسابك الاول و تمتع بتجربة مختلفة</p>
+                    <button class="hidden" id="register">سجل</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
